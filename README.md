@@ -62,7 +62,7 @@ Step 5: Convert the pre-processed dataset into an SQL file and import it to tabl
 
 After finishing the data cleaning,now the requirement is to convert the cleaned csv to sql file and create a table called "superstore" in the PHP Admin.
 
-CREATE TABLE superstore (
+SQL> CREATE TABLE superstore (
     Row_ID INT NOT NULL,
     Order_ID VARCHAR(255) NOT NULL,
     Order_Date DATE NOT NULL,
