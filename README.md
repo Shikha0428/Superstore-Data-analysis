@@ -30,7 +30,8 @@ The dataset may contain duplicate rows, excluding Row_ID column as Row_ID is uni
 So to identify the duplicate row df.duplicated() function is used except Row_ID column.
 We Could see that 1 row is duplicated which is row#3407.
 
-<img width="1028" alt="3" src="https://user-images.githubusercontent.com/126523797/224441289-cb6deca6-eb3d-4d1e-b7bb-34e577f4e186.png">
+<img width="921" alt="1" src="https://user-images.githubusercontent.com/126523797/224462122-71334884-ae6c-45ef-9052-643ff345e4a6.png">
+
 
 The duplicate row had been removed using df.drop_duplicates(subset=df.columns.difference(['Row_ID']))
 
