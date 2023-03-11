@@ -35,7 +35,8 @@ We Could see that 1 row is duplicated which is row#3407.
 
 The duplicate row had been removed using df.drop_duplicates(subset=df.columns.difference(['Row_ID']))
 
-<img width="741" alt="3" src="https://user-images.githubusercontent.com/126523797/224442903-0baba396-6232-42fc-8e5a-5deaaefa521c.png">
+<img width="569" alt="2" src="https://user-images.githubusercontent.com/126523797/224462213-f2b75367-a6b4-460b-a077-f52127f097c7.png">
+
 
 **Step 2: Removing rows for which few values are missing**
 
