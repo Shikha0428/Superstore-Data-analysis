@@ -53,9 +53,11 @@ Then we proceed with dropping the records with null values as it can interfere w
 
 **Step 3: Remove irrelevant values from each column if any. Validation of all values for a column( order date and ship date value must be in correct date format). For each entry in dataset ship date >= order date**
 
-<img width="1188" alt="5" src="https://user-images.githubusercontent.com/126523797/224446159-56ac48f5-172d-4416-88d7-0c7d0b26f052.png">
+<img width="902" alt="5" src="https://user-images.githubusercontent.com/126523797/224462532-3482e99e-e089-4ded-ad6b-c3c8a5da8500.png">
 
-<img width="849" alt="date" src="https://user-images.githubusercontent.com/126523797/224447324-d51419ea-6970-4810-91c6-d895e578106c.png">
+
+<img width="919" alt="6" src="https://user-images.githubusercontent.com/126523797/224462588-899899fb-66c1-4b25-ad00-e6a00584d9a8.png">
+
 
 **Step 4: Export the cleaned dataset as a .csv file: prefer UTF-8 encoding**
 
