@@ -58,6 +58,10 @@ Then we proceed with dropping the records with null values as it can interfere w
 
 <img width="919" alt="6" src="https://user-images.githubusercontent.com/126523797/224462588-899899fb-66c1-4b25-ad00-e6a00584d9a8.png">
 
+For each entry in dataset ship date >= order date. So there is no incorrect data where Ship_Date is less than Order_Date. So no need to remove any rows.
+
+<img width="713" alt="7" src="https://user-images.githubusercontent.com/126523797/224462761-a5145d29-3bb4-4195-944a-318619ff34e4.png">
+
 
 **Step 4: Export the cleaned dataset as a .csv file: prefer UTF-8 encoding**
 
