@@ -16,7 +16,7 @@ It Contains 3 modules:
 
 <img width="1016" alt="modules" src="https://user-images.githubusercontent.com/126523797/224436477-ac5e01d0-649d-4244-8be3-7215545b6422.png">
 
-Module 1:
+**Module 1:**
 
 Let's start with module 1 by downloading superstore_final_dataset.csv in the given sandbox link.
 <img width="1162" alt="2" src="https://user-images.githubusercontent.com/126523797/224437661-91f9fceb-139b-4cec-a7ab-2b627b2242d2.png">
@@ -25,7 +25,7 @@ To understand the sales and operations of Superstore, we are going to go through
 
 The dataset may contain duplicate rows, excluding Row_ID column as Row_ID is unique identifier here. This is to avoid duplicate entry for the same product in the same order.
 
-Step 1: Removing duplicate rows ( there could be duplicate rows excluding Row_ID column ).
+**Step 1: Removing duplicate rows ( there could be duplicate rows excluding Row_ID column)**
 
 So to identify the duplicate row df.duplicated() function is used except Row_ID column.
 We Could see that 1 row is duplicated which is row#3407.
@@ -36,7 +36,7 @@ The duplicate row had been removed using df.drop_duplicates(subset=df.columns.di
 
 <img width="741" alt="3" src="https://user-images.githubusercontent.com/126523797/224442903-0baba396-6232-42fc-8e5a-5deaaefa521c.png">
 
-Step 2: Removing rows for which few values are missing.
+**Step 2: Removing rows for which few values are missing**
 
 We could see that using df.isnull() , there are 11 rows with null postal code.
 
@@ -47,19 +47,19 @@ Then we proceed with dropping the records with null values as it can interfere w
 
 <img width="846" alt="4" src="https://user-images.githubusercontent.com/126523797/224443303-c2e1631b-d2dd-4192-a664-fdd94802e957.png">
 
-Step 3: Remove irrelevant values from each column if any. Validation of all values for a column( order date and ship date value must be in correct date format ). For each entry in dataset ship date >= order date
+**Step 3: Remove irrelevant values from each column if any. Validation of all values for a column( order date and ship date value must be in correct date format). For each entry in dataset ship date >= order date**
 
 <img width="1188" alt="5" src="https://user-images.githubusercontent.com/126523797/224446159-56ac48f5-172d-4416-88d7-0c7d0b26f052.png">
 
 <img width="849" alt="date" src="https://user-images.githubusercontent.com/126523797/224447324-d51419ea-6970-4810-91c6-d895e578106c.png">
 
-Step 4: Export the cleaned dataset as a .csv file: prefer UTF-8 encoding.
+**Step 4: Export the cleaned dataset as a .csv file: prefer UTF-8 encoding**
 
 <img width="973" alt="l" src="https://user-images.githubusercontent.com/126523797/224448100-b66011aa-4554-45d1-87b2-4654608d9f01.png">
 
 So now the dataset is very clean and ready to be exported to csv file with UTF-8 encoding. Superstore_cleaned_dataset.csv is now cleaned and ready for data analysis.
 
-Step 5: Convert the pre-processed dataset into an SQL file and import it to table named "superstore" using credentials provided in "DataBase Info" Tab.
+**Step 5: Convert the pre-processed dataset into an SQL file and import it to table named "superstore" using credentials provided in "DataBase Info" Tab.**
 
 After finishing the data cleaning,now the requirement is to convert the cleaned csv to sql file and create a table called "superstore" in the PHP Admin.
 
