@@ -62,8 +62,9 @@ So now the dataset is very clean and ready to be exported to csv file with UTF-8
 Step 5: Convert the pre-processed dataset into an SQL file and import it to table named "superstore" using credentials provided in "DataBase Info" Tab.
 
 After finishing the data cleaning,now the requirement is to convert the cleaned csv to sql file and create a table called "superstore" in the PHP Admin.
+SQL Query to create table.
 
-SQL> CREATE TABLE superstore (
+ CREATE TABLE superstore (
     Row_ID INT NOT NULL,
     Order_ID VARCHAR(255) NOT NULL,
     Order_Date DATE NOT NULL,
