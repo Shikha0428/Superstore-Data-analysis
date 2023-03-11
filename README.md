@@ -48,7 +48,8 @@ We could see that using df.isnull() , there are 11 rows with null postal code.
 
 Then we proceed with dropping the records with null values as it can interfere with the data analysis by df.dropna() function.
 
-<img width="846" alt="4" src="https://user-images.githubusercontent.com/126523797/224443303-c2e1631b-d2dd-4192-a664-fdd94802e957.png">
+<img width="764" alt="4" src="https://user-images.githubusercontent.com/126523797/224462455-4a21381b-4bb5-49ad-9796-8d82be74ec9c.png">
+
 
 **Step 3: Remove irrelevant values from each column if any. Validation of all values for a column( order date and ship date value must be in correct date format). For each entry in dataset ship date >= order date**
 
