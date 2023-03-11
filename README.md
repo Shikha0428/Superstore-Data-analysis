@@ -40,7 +40,8 @@ Step 2: Removing rows for which few values are missing.
 
 We could see that using df.isnull() , there are 11 rows with null postal code.
 
-<img width="1054" alt="p" src="https://user-images.githubusercontent.com/126523797/224444890-3a9b07d5-8a92-42e2-bce4-d35d79f6ce81.png">
+<img width="1047" alt="p" src="https://user-images.githubusercontent.com/126523797/224452151-ec1e1264-ff68-4160-842d-e000c48aaf23.png">
+
 
 Then we proceed with dropping the records with null values as it can interfere with the data analysis by df.dropna() function.
 
