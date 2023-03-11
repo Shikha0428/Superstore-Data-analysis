@@ -42,7 +42,8 @@ The duplicate row had been removed using df.drop_duplicates(subset=df.columns.di
 
 We could see that using df.isnull() , there are 11 rows with null postal code.
 
-<img width="1047" alt="p" src="https://user-images.githubusercontent.com/126523797/224452151-ec1e1264-ff68-4160-842d-e000c48aaf23.png">
+<img width="766" alt="3" src="https://user-images.githubusercontent.com/126523797/224462306-3f453765-5973-4bf2-8736-4c09b0deba0e.png">
+
 
 
 Then we proceed with dropping the records with null values as it can interfere with the data analysis by df.dropna() function.
