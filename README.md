@@ -91,10 +91,11 @@ Product_Name VARCHAR(255),
 Then the SQL file has been imported into PHP admin by using given Username,Password as table superstore.
 <img width="1259" alt="t" src="https://user-images.githubusercontent.com/126523797/224448837-06b6558d-a835-4a5d-95eb-2ecb4c146b04.png">
 
-<img width="1273" alt="table" src="https://user-images.githubusercontent.com/126523797/224448576-3f207ab2-e90a-4ef9-88ab-0c624170747c.png">
 
 Now the table has been created for data analysis using SQL. There were 14 tasks/data analysis requirement given. The SQL queries used to address those requirements has been attached as superstore.sql file.
- 
+
+ <img width="1273" alt="table" src="https://user-images.githubusercontent.com/126523797/224448576-3f207ab2-e90a-4ef9-88ab-0c624170747c.png">
+
 From this Module 1 and 2 comes to an end.
 
 
