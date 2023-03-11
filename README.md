@@ -86,6 +86,8 @@ Product_Name VARCHAR(255),
     Sales DECIMAL(10, 2),
     PRIMARY KEY (Row_ID)
 );
+
+
 Then the SQL file has been imported into PHP admin by using given Username,Password as table superstore.
 <img width="1259" alt="t" src="https://user-images.githubusercontent.com/126523797/224448837-06b6558d-a835-4a5d-95eb-2ecb4c146b04.png">
 
